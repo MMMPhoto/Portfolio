@@ -22,6 +22,7 @@ h1 {
 
 h2 {
     font-size: 35px;
+    text-align: right;
 }
 
 nav {
@@ -120,10 +121,13 @@ footer {
 #work-content {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
 }
 
 #lead-work-link {
     background-color: orange;
+    flex: 2 2 auto;
     width: 100%;
     margin-left: 0px;
     margin-right: 0px;
@@ -132,9 +136,7 @@ footer {
 .work-link {
     display: flex;
     flex-wrap: wrap;
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: auto;
+    flex: 1 1 40%;
     background-color: green;
     margin-left: 0px;
     margin-right: 0px;
@@ -148,7 +150,12 @@ footer {
 #contact h2 {
     background-color: lavender;
 }
-
+#contact-content {
+    display: flex;
+    justify-content: space-around;
+    background-color: aliceblue;
+    align-items: center;
+}
 #contact p {
     background-color: lightblue;
 }
