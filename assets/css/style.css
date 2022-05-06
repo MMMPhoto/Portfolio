@@ -21,7 +21,7 @@ h1 {
 
 nav {
     flex: 1 1 50%;
-    background-color: purple;
+    background-color: yellow;
 }
 
 menu {
@@ -43,7 +43,28 @@ main {
 }
 
 main section {
+    display: flex;
+    justify-content: space space-around;
+    align-items: stretch;
     height: 300px
+}
+
+.section-header {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1 1 15%;
+    margin: 20px;
+}
+
+.section-divider {
+    
+
+}
+
+.section-content {
+    display: flex;
+    flex: 2 1 75%;
+    margin: 20px;
 }
 
 footer {
@@ -64,6 +85,14 @@ footer {
 }
 
 #about {
+    background-color: blue;
+}
+
+#about h2 {
+    background-color: greenyellow;
+}
+
+#about p {
     background-color: aqua;
 }
 
@@ -71,9 +100,23 @@ footer {
     background-color: hotpink;
 }
 
+#work h2 {
+    background-color: red;
+}
+
+#work p {
+    background-color: orange;
+}
+
 #contact {
     background-color: indigo;
 
 }
 
+#contact h2 {
+    background-color: lavender;
+}
 
+#contact p {
+    background-color: lightblue;
+}
