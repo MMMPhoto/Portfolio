@@ -1,0 +1,33 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: green;
+}
+
+h1 {
+    flex: 1 1 50%;
+    margin-left: 40px;
+}
+
+nav {
+    flex: 1 1 50%;
+    background-color: purple;
+}
+
+menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    height: 100%;
+    margin-top: 0px;
+}
+
+menu li {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
