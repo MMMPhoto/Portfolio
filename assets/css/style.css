@@ -15,8 +15,13 @@ header {
 }
 
 h1 {
+    font-size: 50px;
     flex: 1 1 50%;
     margin-left: 40px;
+}
+
+h2 {
+    font-size: 35px;
 }
 
 nav {
@@ -46,7 +51,6 @@ main section {
     display: flex;
     justify-content: space space-around;
     align-items: stretch;
-    height: 300px
 }
 
 .section-header {
@@ -63,6 +67,7 @@ main section {
 
 .section-content {
     display: flex;
+    justify-content: center;
     flex: 2 1 75%;
     margin: 20px;
 }
@@ -80,6 +85,11 @@ footer {
 }
 
 .banner img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.work-link img {
     width: 100%;
     object-fit: cover;
 }
@@ -104,8 +114,27 @@ footer {
     background-color: red;
 }
 
-#work p {
+#work-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+
+}
+
+#lead-work-link {
     background-color: orange;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.work-link {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    background-color: green;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 #contact {
