@@ -38,6 +38,19 @@ menu li {
     font-weight: 600;
 }
 
+main {
+    background-color: yellow;
+}
+
+main section {
+    height: 300px
+}
+
+footer {
+    background-color: orange;
+    text-align: center;
+}
+
 .banner {
     display: flex;
     justify-content: center;
@@ -50,5 +63,17 @@ menu li {
     object-fit: cover;
 }
 
+#about {
+    background-color: aqua;
+}
+
+#work  {
+    background-color: hotpink;
+}
+
+#contact {
+    background-color: indigo;
+
+}
 
 
