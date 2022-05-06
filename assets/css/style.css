@@ -61,8 +61,11 @@ main section {
 }
 
 .section-divider {
-    
-
+    width: 5px;
+    height: auto;
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .section-content {
@@ -117,8 +120,6 @@ footer {
 #work-content {
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
-
 }
 
 #lead-work-link {
@@ -132,6 +133,8 @@ footer {
     display: flex;
     flex-wrap: wrap;
     flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
     background-color: green;
     margin-left: 0px;
     margin-right: 0px;
