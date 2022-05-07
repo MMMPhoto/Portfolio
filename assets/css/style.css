@@ -10,13 +10,14 @@ body {
 
 header {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     background-color: green;
 }
 
 h1 {
     font-size: 50px;
-    flex: 1 1 50%;
+    flex: 1 1 60%;
     margin-left: 40px;
 }
 
@@ -26,7 +27,7 @@ h2 {
 }
 
 nav {
-    flex: 1 1 50%;
+    flex: 1 1 40%;
     background-color: yellow;
 }
 
@@ -50,7 +51,8 @@ main {
 
 main section {
     display: flex;
-    justify-content: space space-around;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: stretch;
 }
 
@@ -150,12 +152,58 @@ footer {
 #contact h2 {
     background-color: lavender;
 }
+
 #contact-content {
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     background-color: aliceblue;
     align-items: center;
 }
+
 #contact p {
     background-color: lightblue;
+}
+
+/* Large Smartphone Screen Formatting  */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+
+    main section {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .section-header {
+        justify-content: center;
+        margin: 0px;
+        height: auto;
+    }x
+    .section-divider {
+        display: none;
+    }
+    #work-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #lead-work-link {
+        width: 100%;
+    }
+    .work-link {
+        width: 80%;
+    }
+}
+/* Small Smartphone Size Formatting  */
+@media screen and (max-width: 576px) {
+    h1 {
+        font-size: 10vw;
+        text-align: center;
+        margin-left: 0px;
+    }
+    #contact-content {
+        flex-direction: column;
+    }
+
 }
