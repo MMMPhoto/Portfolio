@@ -8,6 +8,15 @@ body {
     align-items: stretch;
 }
 
+p {
+    font-size: 24px;
+}
+
+/* Remove underline from links */
+a {
+    text-decoration: none;
+}
+
 header {
     display: flex;
     flex-direction: row;
@@ -35,8 +44,9 @@ menu {
     margin-top: 0px;
 }
 
-menu li {
-    font-size: 20px;
+menu li a {
+    color: black;
+    font-size: 30px;
     font-weight: 600;
 }
 
@@ -107,6 +117,22 @@ footer {
     background-color: aqua;
 }
 
+#about-content {
+    display: flex;
+}
+
+#avatar {
+    flex: 1 1 30%;
+}
+
+#about-content article {
+    flex: 2 1 70%;
+}
+
+#avatar img {
+    width: 100%;
+}
+
 #work  {
     background-color: hotpink;
 }
@@ -147,7 +173,7 @@ footer {
 
 .work-title {
     position: relative;
-    bottom: 116px;
+    bottom: 130px;
     left: 20px;
     border-style: solid;
     border-color: black;
@@ -169,9 +195,24 @@ footer {
     align-items: center;
 }
 
-#contact p {
-    background-color: lightblue;
+#contact h3 {
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
 }
+
+/* Tablet and Small Laptop Screen Formatting  */
+
+@media screen and (max-width: 1100px) {
+    #avatar {
+        flex: 1 1 45%;
+    }
+
+    #about-content article {
+        flex: 2 1 55%;
+    }
+}
+
 
 /* Large Smartphone Screen Formatting  */
 @media screen and (max-width: 768px) {
