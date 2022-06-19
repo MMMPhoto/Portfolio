@@ -101,13 +101,13 @@ main section h2 {
     margin: 20px;
 }
 /* Styling for About Section */
-#about-content {
+#about {
     display: flex;
 }
 #avatar {
     flex: 1 1 30%;
 }
-#about-content article {
+#about article {
     flex: 2 1 70%;
 }
 #avatar img {
@@ -117,7 +117,7 @@ main section h2 {
     border-width: 1px;
 }
 /* Styling for Work Section */
-#work-content {
+#work {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -135,6 +135,7 @@ main section h2 {
     flex: 1 1 40%;
     margin-left: 0px;
     margin-right: 0px;
+    margin-top: 10vh;
     height: 20%;
 }
 .work-link img {
@@ -168,7 +169,7 @@ main section h2 {
     margin: 0px;
 }
 /* Styling for Contact Section */
-#contact-section {
+#contact {
     /* Fixes weird gap at bottom of work section */
     margin-top: -150px;
 }
@@ -197,7 +198,7 @@ footer {
     #avatar {
         flex: 1 1 45%;
     }
-    #about-content article {
+    #about article {
         flex: 2 1 55%;
     }
     .work-title {
@@ -210,7 +211,7 @@ footer {
     .work-title p {
         font-size: 12px;
     }
-    #contact-content h3 {
+    #contact h3 {
         font-size: 20px;
     }
 }
@@ -247,7 +248,7 @@ footer {
         justify-content: center;
         align-items: center;
     }
-    #work-content {
+    #work {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -286,7 +287,7 @@ footer {
     .work-title p {
         font-size: 11px;
     }
-    #contact-content {
+    #contact {
         flex-direction: column;
     }
 }
