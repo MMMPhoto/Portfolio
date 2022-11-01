@@ -1,4 +1,4 @@
-# Module_2_Challenge_Portfolio
+# Portfolio
 
 ## Module 2 Challenge for the the GT bootcamp: Portfolio web site
 This Week 2 Challenge tested my skills in Advanced CSS. We were tasked with building a portfolio website from scratch that would showcase our work as a web developer. I started out this project wanting to make sure my page was responsive and behaved the way I wanted, regardless of content. I primarily built the page using flexbox elements, and I held off on visually styling the page until the page functioned the way I wanted it and was responsive to varying screen sizes.
